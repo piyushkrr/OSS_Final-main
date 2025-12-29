@@ -1,0 +1,533 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.oss.productcatalog:product-catalog[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding product-catalog 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.3.6:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mproduct-catalog[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mproduct-catalog[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mproduct-catalog[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mproduct-catalog[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/labuser/Downloads/OSS_Final-main/oss-backend/product-catalog/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mproduct-catalog[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.3.6:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mproduct-catalog[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.3.6:run[m [1m(default-cli)[m @ [36mproduct-catalog[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.6)
+
+2025-12-28T20:16:39.140Z  INFO 304713 --- [product-catalog] [           main] c.o.p.ProductCatalogApplication          : Starting ProductCatalogApplication using Java 17.0.16 with PID 304713 (/home/labuser/Downloads/OSS_Final-main/oss-backend/product-catalog/target/classes started by labuser in /home/labuser/Downloads/OSS_Final-main/oss-backend/product-catalog)
+2025-12-28T20:16:39.161Z  INFO 304713 --- [product-catalog] [           main] c.o.p.ProductCatalogApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-12-28T20:16:44.896Z  INFO 304713 --- [product-catalog] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-28T20:16:45.968Z  INFO 304713 --- [product-catalog] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1051 ms. Found 4 JPA repository interfaces.
+2025-12-28T20:16:47.981Z  INFO 304713 --- [product-catalog] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f43ac7a5-44f2-3fb6-a0c3-5945cb0bbf8a
+2025-12-28T20:16:50.848Z  INFO 304713 --- [product-catalog] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-12-28T20:16:50.870Z  INFO 304713 --- [product-catalog] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-28T20:16:50.871Z  INFO 304713 --- [product-catalog] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-12-28T20:16:51.492Z  INFO 304713 --- [product-catalog] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-28T20:16:51.503Z  INFO 304713 --- [product-catalog] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11933 ms
+2025-12-28T20:16:52.727Z  INFO 304713 --- [product-catalog] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-28T20:16:52.846Z  INFO 304713 --- [product-catalog] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-28T20:16:53.027Z  INFO 304713 --- [product-catalog] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-28T20:16:54.599Z  INFO 304713 --- [product-catalog] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-28T20:16:54.682Z  INFO 304713 --- [product-catalog] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-28T20:16:57.108Z  INFO 304713 --- [product-catalog] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1efcba00
+2025-12-28T20:16:57.119Z  INFO 304713 --- [product-catalog] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-28T20:17:04.476Z  INFO 304713 --- [product-catalog] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: alter table product_images modify column image_data LONGBLOB
+2025-12-28T20:17:05.210Z  INFO 304713 --- [product-catalog] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-28T20:17:07.989Z  WARN 304713 --- [product-catalog] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-28T20:17:08.458Z  WARN 304713 --- [product-catalog] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6501137f-8557-40a1-aeef-ae06dacfb6ee
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-12-28T20:17:08.540Z  INFO 304713 --- [product-catalog] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-12-28T20:17:12.374Z  INFO 304713 --- [product-catalog] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-12-28T20:17:12.533Z  WARN 304713 --- [product-catalog] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-28T20:17:12.636Z  INFO 304713 --- [product-catalog] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-12-28T20:17:12.807Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-12-28T20:17:12.833Z  INFO 304713 --- [product-catalog] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:17:12.973Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-12-28T20:17:12.976Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-12-28T20:17:12.979Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-12-28T20:17:12.982Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-12-28T20:17:12.983Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-12-28T20:17:12.983Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-12-28T20:17:12.983Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-12-28T20:17:15.701Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-12-28T20:17:15.705Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-12-28T20:17:15.709Z  INFO 304713 --- [product-catalog] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-12-28T20:17:15.712Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1766953035711 with initial instances count: 2
+2025-12-28T20:17:15.720Z  INFO 304713 --- [product-catalog] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PRODUCT-CATALOG with eureka with status UP
+2025-12-28T20:17:15.722Z  INFO 304713 --- [product-catalog] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1766953035721, current=UP, previous=STARTING]
+2025-12-28T20:17:15.725Z  INFO 304713 --- [product-catalog] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082: registering service...
+2025-12-28T20:17:15.801Z  INFO 304713 --- [product-catalog] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-12-28T20:17:15.802Z  INFO 304713 --- [product-catalog] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2025-12-28T20:17:15.904Z  INFO 304713 --- [product-catalog] [           main] c.o.p.ProductCatalogApplication          : Started ProductCatalogApplication in 39.523 seconds (process running for 41.877)
+2025-12-28T20:17:15.907Z  INFO 304713 --- [product-catalog] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082 - registration status: 204
+2025-12-28T20:18:13.400Z  INFO 304713 --- [product-catalog] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-28T20:18:13.401Z  INFO 304713 --- [product-catalog] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-28T20:18:13.407Z  INFO 304713 --- [product-catalog] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+Hibernate: select p1_0.id,p1_0.active,p1_0.availability_status,p1_0.brand,p1_0.currency,p1_0.description,p1_0.name,p1_0.price,p1_0.sku,p1_0.stock from products p1_0
+Hibernate: select p1_0.id,p1_0.active,p1_0.availability_status,p1_0.brand,p1_0.currency,p1_0.description,p1_0.name,p1_0.price,p1_0.sku,p1_0.stock from products p1_0
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select p1_0.id,p1_0.active,p1_0.availability_status,p1_0.brand,p1_0.currency,p1_0.description,p1_0.name,p1_0.price,p1_0.sku,p1_0.stock from products p1_0
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select p1_0.id,p1_0.active,p1_0.availability_status,p1_0.brand,p1_0.currency,p1_0.description,p1_0.name,p1_0.price,p1_0.sku,p1_0.stock from products p1_0
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select p1_0.id,p1_0.active,p1_0.availability_status,p1_0.brand,p1_0.currency,p1_0.description,p1_0.name,p1_0.price,p1_0.sku,p1_0.stock from products p1_0
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select p1_0.id,p1_0.active,p1_0.availability_status,p1_0.brand,p1_0.currency,p1_0.description,p1_0.name,p1_0.price,p1_0.sku,p1_0.stock from products p1_0
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select c1_0.product_id,c1_1.id,c1_1.description,c1_1.name from product_categories c1_0 join categories c1_1 on c1_1.id=c1_0.category_id where c1_0.product_id=?
+Hibernate: select i1_0.product_id,i1_0.id,i1_0.alt_text,i1_0.content_type,i1_0.image_data,i1_0.image_url,i1_0.sort_order from product_images i1_0 where i1_0.product_id=?
+Hibernate: select r1_0.id,r1_0.comment,r1_0.created_at,r1_0.helpful_count,r1_0.product_id,r1_0.rating,r1_0.title,r1_0.user_avatar,r1_0.user_id,r1_0.user_name,r1_0.verified_purchase from reviews r1_0 where r1_0.product_id=? order by r1_0.created_at desc
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+Hibernate: select s1_0.product_id,s1_0.spec_key,s1_0.spec_value from product_specs s1_0 where s1_0.product_id=?
+2025-12-28T20:22:12.991Z  INFO 304713 --- [product-catalog] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:27:12.992Z  INFO 304713 --- [product-catalog] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:32:12.994Z  INFO 304713 --- [product-catalog] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:37:12.994Z  INFO 304713 --- [product-catalog] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:42:12.995Z  INFO 304713 --- [product-catalog] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:47:12.996Z  INFO 304713 --- [product-catalog] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-12-28T20:47:27.395Z  INFO 304713 --- [product-catalog] [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PRODUCT-CATALOG with eureka with status DOWN
+2025-12-28T20:47:27.395Z  INFO 304713 --- [product-catalog] [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1766954847395, current=DOWN, previous=UP]
+2025-12-28T20:47:27.396Z  INFO 304713 --- [product-catalog] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082: registering service...
+2025-12-28T20:47:27.414Z  INFO 304713 --- [product-catalog] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082 - registration status: 204
+2025-12-28T20:47:28.656Z  INFO 304713 --- [product-catalog] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-28T20:47:29.450Z  INFO 304713 --- [product-catalog] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-28T20:47:30.266Z  INFO 304713 --- [product-catalog] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-28T20:47:30.267Z  INFO 304713 --- [product-catalog] [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-12-28T20:47:33.268Z  INFO 304713 --- [product-catalog] [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-12-28T20:47:34.218Z  INFO 304713 --- [product-catalog] [ionShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:96)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1156)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1102)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:170)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 39 more
+
+2025-12-28T20:47:34.333Z  WARN 304713 --- [product-catalog] [ionShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
+2025-12-28T20:47:34.343Z  INFO 304713 --- [product-catalog] [ionShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:830)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:691)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:96)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1195)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1156)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1102)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.lambda$connectSocket$0(PlainConnectionSocketFactory.java:91)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:90)
+	at org.apache.hc.client5.http.socket.ConnectionSocketFactory.connectSocket(ConnectionSocketFactory.java:123)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:189)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:170)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 40 more
+
+2025-12-28T20:47:34.343Z  WARN 304713 --- [product-catalog] [ionShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082": Connect to http://localhost:8761 [localhost/127.0.0.1] failed: Connection refused
+2025-12-28T20:47:34.343Z ERROR 304713 --- [product-catalog] [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT-CATALOG/ip-172-31-41-78.ap-south-1.compute.internal:product-catalog:8082 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389) ~[spring-cloud-context-4.1.5.jar:4.1.5]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-4.1.5.jar:4.1.5]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1202) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1195) ~[spring-beans-6.1.15.jar:6.1.15]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1195) ~[spring-context-6.1.15.jar:6.1.15]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1156) ~[spring-context-6.1.15.jar:6.1.15]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-3.3.6.jar:3.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1102) ~[spring-context-6.1.15.jar:6.1.15]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:145) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114) ~[spring-boot-3.3.6.jar:3.3.6]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-12-28T20:47:35.232Z  INFO 304713 --- [product-catalog] [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
